@@ -1,6 +1,6 @@
 # robot-controller-client
-Sample programs for communicating with Sota (CommU).
-
+Sota(CommU or Puppet)内のRobotControllerと通信し、操作するサンプルプログラムです。
+このプログラムを実行する際は、Sotaの中で[RobotControllerを起動](https://github.com/social-robotics-lab/RobotController_bin)しておいてください。
 
 ## Install
 ```
@@ -13,6 +13,7 @@ cd robot-controller-client
 docker compose build
 docker compose run --rm app --ip 192.168.11.xxx
 ```
+※SotaのIPアドレスを指定する
 
 ## データ送信・コマンド送信
 
